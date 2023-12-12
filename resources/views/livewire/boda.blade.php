@@ -7,17 +7,17 @@
                     <div class="container ww-announcement-container">
                         <div class="mt-lg-5 mb-md-5 ww-couple-name" data-aos="zoom-in-down">
                             <p class="ww_my_wedding"> NUESTRA BODA </p>
-                            <!--        <h1>NUESTRA BODA</h1>-->
                         </div>
                         <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
                             <span class="ww_my_title_">Antonia </span> <span class="ww-title">&</span> <span class="ww_my_title_"> Raúl</span>
                         </p>
                         <div class="hei"></div>
-                        <img class="img-fluid mt-1" src="images/laurel-2.png" alt="Heart" data-aos="zoom-in-down"
+                        <img class="img-fluid mt-5" src="images/laurel-2.png" alt="Heart" data-aos="zoom-in-down"
                              data-aos-delay="300" data-aos-duration="1000"/>
-                        <p class="h1 mt-5 ww-title ww_my_date" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"
-                           data-aos-offset="10" >17|Feb|2024</p>
-                        <div class="simply-countdown simply-countdown-one rounded-lg"></div>
+                        <p class="mt-5 ww-title_date" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"
+                           data-aos-offset="10" >17|Feb|2024
+                        </p>
+                        <div class="simply-countdown simply-countdown-one"></div>
                     </div>
                 </div>
             </div>
@@ -323,8 +323,8 @@
             </div>
             <div class="ww-footer bg-light">
                 <div class="container text-center py-4">
-                    <p class="my-0">&copy; Wonderful Wedding. All rights reserved.</p>
-                    <p class="mb-0">Desmute-iconeño y Creación por • <a class="credit" href="https://ederportfolio.c1.is/" target="_blank">Ing. Eder Escobedo • Cotizaciones al 7751905138 • Bodas / XV Años / Bautizos y Más</a></p>
+                    <p class="my-0">&copy; Wonderful Wedding. All rights reserved. </p>
+                    <p class="mb-0"> Diseño y Creación por • <a class="credit" href="https://ederportfolio.c1.is/" target="_blank">Ing. Eder Escobedo • Cotizaciones al 7751905138 • Bodas / XV Años / Bautizos y Más</a></p>
                 </div>
                 <div class="container text-center py-4">
                     <audio id="background-music" controls autoplay loop>

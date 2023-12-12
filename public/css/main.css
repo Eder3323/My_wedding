@@ -28,7 +28,7 @@ body {
   background: url("../images/boda/portada.jpeg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
-  height: 100vh;
+  height: 110vh;
   min-height: 480px;
   max-height: 1080px; }
 @media (max-width: 576px) {
@@ -63,10 +63,26 @@ body {
           max-height: 320px;
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
-      font-size: 80px; }
+      font-size: 80px;
+    }
       @media (max-width: 576px) {
         .ww-home-page .ww-wedding-announcement .ww-couple-name {
-          font-size: 90px; } }
+          font-size: 65px;
+        }
+      }
+        @media (max-width: 410px) {
+            .ww-home-page .ww-wedding-announcement .ww-couple-name {
+                font-size: 58px;
+            }
+        }
+        @media (max-width: 390px) {
+            .ww-home-page .ww-wedding-announcement .ww-couple-name{
+                font-size: 52px;
+            }
+            .ww-couple-name{
+                max-height: 10px;
+            }
+        }
 .my_title{
   font-size: 50px;
 }
@@ -82,12 +98,18 @@ body {
   font-size: 20px;
 }
 .ww-title {
-  font-family: "Great Vibes", cursive; }
+  font-family: "Great Vibes", cursive;
+}
+.ww-title_date{
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    color: white;
+}
 .ww_my_title_{
   font-family: "Avenue", cursive;
 }
 .ww_my_date{
-  font-size: 45px;
+  font-size: 60px;
 }
 .ww_my_wedding{
   font-family: "Tinos-Regular", cursive;
@@ -96,8 +118,21 @@ body {
 @media (max-width: 576px){
   .ww_my_wedding{
     font-family: "Tinos-Regular", cursive;
-    font-size: 48px;
+    font-size: 42px;
   }
+}
+@media (max-width: 400px){
+    .ww_my_wedding{
+        font-family: "Tinos-Regular", cursive;
+        font-size: 39px;
+    }
+}
+@media (max-width: 390px){
+    .ww_my_wedding{
+        font-family: "Tinos-Regular", cursive;
+        font-size: 39px;
+        max-height: 10px;
+    }
 }
 
 .ww-home-page:before {
@@ -251,9 +286,8 @@ body {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 90px;
+  width: 70px;
   height: 100px;
-  /*background: white;*/
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -281,7 +315,7 @@ body {
 }
 @media (max-width: 576px){
   .simply-countdown > .simply-section .simply-amount {
-    font-size: 30px;
+    font-size: 35px;
     /* amounts */
   }
 }
