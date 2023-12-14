@@ -1,24 +1,19 @@
 // document.addEventListener("DOMContentLoaded", function() {
-//     // unmuteAudio();
-//     // setPlayIcon();
-//     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-//     if (!isChrome){
-//         $('#iframeAudio').remove()
-//     }
-//     else {
-//         $('#background-music').remove() // just to make sure that it will not have 2x audio in the background
-//     }
+//     // document.getElementById('background-music').play();
+//     //  unmuteAudio();
+// //     // setPlayIcon();
+// //     unmuteAudio();
+// //     setPlayIcon();
 // });
-
 
 function toggleMute() {
     var audio = document.getElementById("background-music");
     if (audio.muted) {
         unmuteAudio();
-        setMuteIcon();
+        setPlayIcon();
     } else {
         muteAudio();
-        setPlayIcon();
+        setMuteIcon();
     }
 }
 
@@ -31,6 +26,7 @@ function muteAudio() {
 function unmuteAudio() {
     var audio = document.getElementById("background-music");
     audio.muted = false;
+    audio.play();
     // audio.play();
 }
 

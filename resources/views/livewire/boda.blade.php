@@ -3,11 +3,16 @@
         <div class="div">
             <div class="ww-home-page" id="home">
                 <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
-
                     <div class="container ww-announcement-container">
-                        <div class="mt-lg-5 mb-md-5 ww-couple-name" data-aos="zoom-in-down">
-                            <p class="ww_my_wedding"> NUESTRA BODA </p>
+{{--                        <div class="mt-lg-5 mb-md-5 ww-couple-name" data-aos="zoom-in-down">--}}
+{{--                            <p class="ww_my_wedding"> NUESTRA BODA </p>--}}
+{{--                        </div>--}}
+                        <div class="mt-lg-5 mb-md-5" data-aos="zoom-in-down">
+                            <h1 class="ww_my_wedding"> NUESTRA BODA </h1>
                         </div>
+{{--                        <div class="" data-aos="zoom-in-down">--}}
+{{--                            <h1 class="ww_my_title_">Antonia </h1> <h1 class="ww-title">&</h1> <h1 class="ww_my_title_"> Raúl</h1>--}}
+{{--                        </div>--}}
                         <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
                             <span class="ww_my_title_">Antonia </span> <span class="ww-title">&</span> <span class="ww_my_title_"> Raúl</span>
                         </p>
@@ -327,7 +332,7 @@
                     <p class="mb-0"> Diseño y Creación por • <a class="credit" href="https://ederportfolio.c1.is/" target="_blank">Ing. Eder Escobedo • Cotizaciones al 7751905138 • Bodas / XV Años / Bautizos y Más</a></p>
                 </div>
                 <div class="container text-center py-4">
-                    <audio id="background-music" controls autoplay loop>
+                    <audio id="background-music" controls muted autoplay loop>
                         <source src="/music/music.mp3" type="audio/mp3">
                     </audio>
                 </div>
